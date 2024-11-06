@@ -36,7 +36,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: ["http://localhost:5173","http://localhost:5174","http://localhost:5175"],
+  origin: ["https://intellistay.netlify.app/","http://localhost:5174","http://localhost:5175"],
   methods: ["GET","POST","PUT","DELETE"],
   credentials: true // Allows cookies to be sent with the request
 }));
